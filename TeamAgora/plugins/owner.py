@@ -5,7 +5,7 @@ import os
 import re
 import asyncio
 import time
-from AnonX import app
+from TeamAgora import app
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
