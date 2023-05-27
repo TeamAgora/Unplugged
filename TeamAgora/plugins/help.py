@@ -12,7 +12,7 @@ from TeamAgora.utils import help_pannel
 from TeamAgora.utils.database import get_lang, is_commanddelete_on
 from TeamAgora.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from AnonX.utils.inline.help import (help_back_markup,
+from TeamAgora.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
