@@ -52,12 +52,12 @@ async def init():
     await userbot.start()
     await Anon.start()
     try:
-        await Anon.stream_decall("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
+        await Anon.stream_decall("https://graph.org/file/44d513ba05f0f08ec6f37.mp4")
     except:
         pass
     try:
         await Anon.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://graph.org/file/44d513ba05f0f08ec6f37.mp4"
         )
     except NoActiveGroupCall:
         LOGGER("TeamAgora").error(
