@@ -1,7 +1,7 @@
 import random
 
-from TeamAgora/ import userbot
-from TeamAgora/.core.mongo import mongodb
+from TeamAgora import userbot
+from TeamAgora.core.mongo import mongodb
 
 db = mongodb.assistants
 
