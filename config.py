@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Kimjikoin/xMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamagora")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/agoraworld")
