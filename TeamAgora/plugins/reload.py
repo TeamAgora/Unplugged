@@ -45,7 +45,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
 from TeamAgora import app
-from TeamAgora.core.call import AnonX
+from TeamAgora.core.call import TeamAgora
 from TeamAgora.misc import db
 from TeamAgora.utils.database import get_authuser_names, get_cmode
 from TeamAgora.utils.decorators import (ActualAdminCB, AdminActual,
