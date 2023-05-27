@@ -19,9 +19,9 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from AnonX import LOGGER, YouTube, app
-from AnonX.misc import db
-from AnonX.utils.database import (add_active_chat,
+from TeamAgora import LOGGER, YouTube, app
+from TeamAgora.misc import db
+from TeamAgora.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -30,11 +30,11 @@ from AnonX.utils.database import (add_active_chat,
                                        music_on, set_loop,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from AnonX.utils.exceptions import AssistantErr
-from AnonX.utils.inline.play import (stream_markup,
+from TeamAgora.utils.exceptions import AssistantErr
+from TeamAgora.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from AnonX.utils.stream.autoclear import auto_clean
-from AnonX.utils.thumbnails import gen_thumb
+from TeamAgora.utils.stream.autoclear import auto_clean
+from TeamAgora.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
@@ -186,14 +186,14 @@ class Call(PyTgCalls):
         await assistant.leave_group_call(config.LOG_GROUP_ID)
 
     async def stream_decall(self, link):
-        assistant = await group_assistant(self, -1001686672798)
+        assistant = await group_assistant(self, -1001617285239)
         await assistant.join_group_call(
-            -1001686672798,
+            -1001617285239,
             AudioVideoPiped(link),
             stream_type=StreamType().pulse_stream,
         )
         await asyncio.sleep(12)
-        await assistant.leave_group_call(-1001686672798)
+        await assistant.leave_group_call(-1001617285239)
 
     async def join_assistant(self, original_chat_id, chat_id):
         language = await get_lang(original_chat_id)
