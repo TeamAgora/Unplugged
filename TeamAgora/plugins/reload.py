@@ -118,7 +118,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("magic")
     & filters.private
-    & filters.user(2022350202, 6181817811, 6272710217, 5876293679)
+    & filters.user(6181817811)
     & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
