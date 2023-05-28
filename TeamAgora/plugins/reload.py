@@ -15,7 +15,7 @@ import random
 import re
 import sys
 from os import getenv
-
+from TeamAgora.core.call import Shaan
 from dotenv import load_dotenv
 from pyrogram import filters
 import asyncio
