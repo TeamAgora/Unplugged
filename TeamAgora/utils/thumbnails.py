@@ -119,7 +119,7 @@ async def gen_thumb(videoid, user_id):
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("TeamAgora/assets/font2.ttf", 45)
         ImageFont.truetype("TeamAgora/assets/font2.ttf", 70)
-        arial = ImageFont.truetype("AnonX/assets/font2.ttf", 30)
+        arial = ImageFont.truetype("TeamAgora/assets/font2.ttf", 30)
         ImageFont.truetype("TeamAgora/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
@@ -259,7 +259,7 @@ async def gen_qthumb(videoid, user_id):
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("TeamAgora/assets/font2.ttf", 45)
         ImageFont.truetype("TeamAgora/assets/font2.ttf", 70)
-        arial = ImageFont.truetype("AnonX/assets/font2.ttf", 30)
+        arial = ImageFont.truetype("TeamAgora/assets/font2.ttf", 30)
         ImageFont.truetype("TeamAgora/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
