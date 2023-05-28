@@ -26,7 +26,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
     & ~BANNED_USERS
 )
 @app.on_callback_query(
-    filters.regex("settings_back_helper") & ~BANNED_USERS
+    filters.regex("fallen_back") & ~BANNED_USERS
 )
 async def helper_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
@@ -59,7 +59,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_sticker("CAACAgUAAx0Cc4SelwACQPxkJRqzRBMzybpYNhFSRnKCOoF3oQACQQoAAkhjMVeiZ-yAke6M1i8E")
+        await update.reply_sticker("CAACAgUAAx0CbWlwNAACDklkc2uBqBOujzFw9b-z5edme2sNGwAC0wkAAr5AYFYt1GYr3HFlHi8E")
         await update.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
