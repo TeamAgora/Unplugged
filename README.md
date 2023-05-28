@@ -22,7 +22,7 @@
     ─「 CLICK ON BUTTON JOIN CHANNEL AND GET DEPLOY BUTTON 」─
 </h3>
 
-<p align="center"><a href="https://t.me/agorarepos2135"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-yellow?style=for-the-badge&logo=heroku" width="420" height="38.45"/></a></p>
+<p align="center"><a href="https://t.me/agorarepos/2135"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-yellow?style=for-the-badge&logo=heroku" width="420" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
