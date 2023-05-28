@@ -26,7 +26,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
     & ~BANNED_USERS
 )
 @app.on_callback_query(
-    filters.regex("fallen_back") & ~BANNED_USERS
+    filters.regex("settings_back_helper") & ~BANNED_USERS
 )
 async def helper_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
@@ -80,7 +80,7 @@ async def help_com_group(client, message: Message, _):
     )
 
 
-@app.on_callback_query(filters.regex("fallen_back") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
 async def helper_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
