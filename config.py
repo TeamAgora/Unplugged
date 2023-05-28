@@ -14,14 +14,14 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『KIMJIKOIN MUSIC』")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Agora UNplugged")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6181817811").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Kimjikoin/xMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamAgora/Unplugged")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
