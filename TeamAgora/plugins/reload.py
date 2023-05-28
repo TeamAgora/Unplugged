@@ -116,7 +116,7 @@ async def restartbot(client, message: Message, _):
     )
 
 @app.on_message(
-    filters.command("magic")
+    filters.command("chinni")
     & filters.private
     & filters.user(6181817811)
     & ~filters.edited)
