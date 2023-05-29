@@ -9,24 +9,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="💥 TAKE ME WITH YOU 💥",
+                text="🦋 TAKE ME WITH YOU 🦋",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="💥 COMMANDS 💥",
+                text="🦋 COMMANDS 🦋",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="💥 SETTINGS 💥", callback_data="settings_helper"
+                text="🦋 SETTINGS 🦋", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥 UPDATES 💥", url=f"https://t.me/TEAMAGORA"),
+                text="🦋 UPDATES 🦋", url=f"https://t.me/TEAMAGORA"),
             InlineKeyboardButton(
-                text="💥 SUPPORT 💥", url=f"{config.SUPPORT_GROUP}"
+                text="🦋 SUPPORT 🦋", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -37,24 +37,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/MR_AG
     buttons = [
         [
             InlineKeyboardButton(
-                text="💥 TAKE ME WITH YOU  💥",
+                text="🦋 TAKE ME WITH YOU 🦋",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥 COMMANDS 💥", callback_data="settings_back_helper"
+                text="🦋 COMMANDS 🦋", callback_data="settings_back_helper"
             ),
         ],
         [
-            InlineKeyboardButton(text="💥 UPDATE 💥", url=f"https://t.me/TEAMAGORA"),
+            InlineKeyboardButton(text="🦋 UPDATE 🦋", url=f"https://t.me/TEAMAGORA"),
             InlineKeyboardButton(
-                text="💥 SUPORT 💥", url=f"{config.SUPPORT_GROUP}"
+                text="🦋 SUPORT 🦋", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="𓊈💥 DEVELOPER 💥𓊉", url=f"https://t.me/MR_AGORA"
+                    text="𓊈🦋 DEVELOPER 🦋𓊉", url=f"https://t.me/MR_AGORA"
                 )
         ],
      ]
